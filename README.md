@@ -1,6 +1,12 @@
 # SEWUserDefaults
 
-###UserDefaults implemented using FMDB.
+UserDefaults implemented using FMDB.
+
+##Podfile
+
+    pod 'SEWUserDefaults'
+    
+##Usage
 
     SEWUserDefaults *userDefaults = [SEWUserDefaults standardUserDefaults];
 
