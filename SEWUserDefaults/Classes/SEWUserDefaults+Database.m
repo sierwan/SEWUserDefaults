@@ -54,7 +54,13 @@ static NSString const * const kTableColumnValue = @"columnValue";
                     NSLog(@"%@ 表不存在，执行建表语句。 SQL:%@", kTableName, sql);
                 }
 #endif
+                
+#if DEBUG
                 BOOL executeResult = [db executeUpdate:sql];
+#else
+                [db executeUpdate:sql];
+#endif
+                
 #if DEBUG
                 if (kLogSwich) {
                     if (executeResult) {
