@@ -8,7 +8,7 @@
 
 #import "SEWUserDefaults+Database.h"
 
-#import <FMDB/FMDB.h>
+#import "FMDB.h"
 
 BOOL kLogSwich = NO;
 
