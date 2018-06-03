@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "SEWUserDefaults+Database.h"
 #import "SEWUserDefaults.h"
 
 FOUNDATION_EXPORT double SEWUserDefaultsVersionNumber;

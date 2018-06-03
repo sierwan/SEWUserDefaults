@@ -11,6 +11,7 @@
 		0848281AD652763F4A325C16001AC6DF /* SEWUserDefaults-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A83C97A82B6DE088574EC82F8D74828B /* SEWUserDefaults-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		098A6361D5D7284E59E0A755D3257F96 /* SEWUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA02BCFEE52C0EC13D146F6ED16DA6 /* SEWUserDefaults.m */; };
 		0BD074CFD44363403602AC479FD28801 /* Pods-SEWUserDefaults_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1F6DFB492911A5C2FC039041CE5527 /* Pods-SEWUserDefaults_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D9B6A2F07D709B3FAB392610B86D9D4 /* SEWUserDefaults+Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7DDFBCEE2E9859FFA951B4A9880EC8 /* SEWUserDefaults+Database.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 351F8E59854BCD39585AB8A055AC2F52 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30B79C90310AC1DCF0CA6901AFC2FCCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B339C607FE63DDDF6BCBABD479561B /* Foundation.framework */; };
 		37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48C0E1AA39302CCDD55032B7544B36 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -32,7 +33,6 @@
 		C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D2F8382360C935E0097F1CB2E26820 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E08DD3F409CC910BDF9AAC0E1BEB35 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5085BA3C5279C337F6D921E5CAFB1FC /* FMDB-dummy.m */; };
-		EDA09013C64E6F42F8926A571EB98DA8 /* SEWUserDefaults+Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C7DDFBCEE2E9859FFA951B4A9880EC8 /* SEWUserDefaults+Database.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CFEEF64A76609C0E88017B38B7E12DA /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F23FC4912A57E459BB6C1622EAC2A82D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B339C607FE63DDDF6BCBABD479561B /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -354,7 +354,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDA09013C64E6F42F8926A571EB98DA8 /* SEWUserDefaults+Database.h in Headers */,
+				0D9B6A2F07D709B3FAB392610B86D9D4 /* SEWUserDefaults+Database.h in Headers */,
 				0848281AD652763F4A325C16001AC6DF /* SEWUserDefaults-umbrella.h in Headers */,
 				78F191CA707BCD180D85578B623C27CD /* SEWUserDefaults.h in Headers */,
 			);

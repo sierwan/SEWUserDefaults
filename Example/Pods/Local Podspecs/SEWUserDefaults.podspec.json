@@ -9,7 +9,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "YanWei": "1276739318@qq.com"
+    "YanWei": "sierwan@qq.com"
   },
   "source": {
     "git": "https://github.com/sierwan/SEWUserDefaults.git",
@@ -19,7 +19,7 @@
     "ios": "7.0"
   },
   "source_files": "SEWUserDefaults/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/SEWUserDefaults.h",
+  "public_header_files": "SEWUserDefaults/Classes/SEWUserDefaults.h",
   "frameworks": "Foundation",
   "dependencies": {
     "FMDB": [
